@@ -1,5 +1,5 @@
 import Block from "./Block";
-import { SiYoutube, SiTwitter, SiTiktok, SiGithub } from "react-icons/si";
+import { SiYoutube, SiX, SiTiktok, SiGithub } from "react-icons/si";
 
 const SocailBlocks = () => {
   return (
@@ -53,7 +53,7 @@ const SocailBlocks = () => {
           href="#"
           className="grid h-full place-content-center text-3xl text-white"
         >
-          <SiTwitter></SiTwitter>
+          <SiX></SiX>
         </a>
       </Block>
     </>
